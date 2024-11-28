@@ -1,0 +1,141 @@
+.navbar {
+    background: #33333300;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+
+}
+
+body {
+    background: url(loginbg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.try {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.wrapper{
+    width: 420px;
+    background-color: transparent;
+    border: 8px solid rgba(11, 11, 11, 0.1);
+    border-radius: 10px;
+    padding: 30px 40px;
+    backdrop-filter: blur(25px);
+
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+    color: rgb(244, 243, 241);
+}
+
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    position: relative;
+    background: transparent;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(43, 43, 43);
+    border-radius: 40px;
+    font-size: 16px;
+    color: azure;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: whitesmoke;
+
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.remember-forgot label input{
+    accent-color: azure;
+    margin-right: 3px;
+
+}
+.remember-forgot a{
+    color: azure;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: rgb(235, 233, 229);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: rgba(238, 14, 14, 0.818);
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 43.5% 10px 43.5%;
+}
+
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register-link p a {
+    color: rgb(202, 6, 6);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
