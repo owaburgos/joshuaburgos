@@ -4,7 +4,7 @@ body {
     font-family: Arial; 
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; /* or "contain" based on your preference */   
+    background-size: cover;    
 }
 
 .navbar {
@@ -56,11 +56,11 @@ body {
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: rgba(51, 51, 51, 0.5); /* Transparent black */
+    background-color: rgba(51, 51, 51, 0.5); 
     color: white;
-    backdrop-filter: blur(10px); /* For modern browsers */
-    -webkit-backdrop-filter: blur(10px); /* Safari support */
-    border-top: 1px solid rgba(255, 255, 255, 0.2); /* Optional border for separation */
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    border-top: 1px solid rgba(255, 255, 255, 0.2); 
 }
 
 .social-icons {
@@ -87,9 +87,9 @@ footer {
 }
 .profile-container {
     display: flex;
-    flex-direction: column; /* Stack image and text vertically */
-    align-items: center; /* Centers both image and text horizontally */
-    margin-top: 20px; /* Adds space between paragraph and profile section */
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 20px; 
 }
 
 .profile-pic {
@@ -98,12 +98,12 @@ footer {
     border-radius: 50%;
     border: 3px solid white;
     object-fit: cover;
-    object-position: bottom; /* Focus on the face */
+    object-position: bottom; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .profile-info {
-    text-align: center; /* Centers text under the image */
+    text-align: center; 
     margin-top: 10px;
     color: white;
 }
@@ -120,7 +120,7 @@ footer {
 }
 
 .hero p {
-    margin-bottom: 20px; /* Adds space between paragraph and profile */
-    text-align: center; /* Centers paragraph for consistency */
+    margin-bottom: 20px; 
+    text-align: center; 
     line-height: 1.5rem;
 }

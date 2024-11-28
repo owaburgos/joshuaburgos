@@ -67,11 +67,11 @@ main p {
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: rgba(33, 32, 32, 0.5); /* Transparent black */
+    background-color: rgba(33, 32, 32, 0.5); 
     color: white;
-    backdrop-filter: blur(10px); /* For modern browsers */
-    -webkit-backdrop-filter: blur(10px); /* Safari support */
-    border-top: 1px solid rgba(255, 255, 255, 0.2); /* Optional border for separation */
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    border-top: 1px solid rgba(255, 255, 255, 0.2); 
 }
 
 .social-icons {
